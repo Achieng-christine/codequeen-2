@@ -1,0 +1,15 @@
+.main{
+    background-color: rgb(213, 224, 243);
+}
+.main > h1{
+    color: rgb(136, 27, 136);
+}
+.main > h2{
+    color: rgb(81, 173, 63);
+}
+.main > img{
+    border-radius: 30px;
+}
+.main > p {
+    color: rgb(194, 126, 119);
+}

@@ -1,0 +1,44 @@
+.sample1{
+    width: 800px;
+    height: 50px;
+    border:2px solid black ;
+    display: flex;
+    justify-content: space-around;
+}
+.item1{
+    width:50px;
+    height: 30px;
+    border: 2px solid black;
+    margin-top: 3px;
+}
+.sample2{
+    width: 800px;
+    height: 50px;
+    border:2px solid teal;
+    display:flex ;
+    justify-content: space-between;
+    background-color: rgb(140, 214, 122);
+}
+.item2{
+    width: 50px;
+    height: 30px;
+    border: 2px solid teal;
+    margin-top: 3px;
+    margin-left: 5px;
+}
+.sample3{
+    width: 800px;
+    height: 150px;
+    border: 2px solid rgb(141, 77, 201);
+    display:flex;
+    justify-content:flex-end;
+    background-image:url( \lilies.jpg) ; background-size:cover;
+}
+.item3{
+    width: 50px;
+    height: 30px;
+    border:2px solid rgb(141, 77, 201);
+    margin-top: 3px;
+    margin-left: 10px;
+    padding: 10px;  
+}

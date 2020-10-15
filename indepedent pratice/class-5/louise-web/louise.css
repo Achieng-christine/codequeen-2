@@ -1,0 +1,18 @@
+img {
+    height: 300px;
+    border-radius: 30px;
+    border: 2px solid teal;
+}
+body{
+    background-color: rgb(175, 231, 226);
+    font-family: cursive;
+}
+body > h1{
+    color: rgb(151, 32, 151);
+}
+body > h2{
+    color: rgb(155, 230, 44);
+}
+body > p{
+    color: rgb(45, 117, 224);
+}

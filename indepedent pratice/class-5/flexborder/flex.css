@@ -1,0 +1,39 @@
+.question-one {
+    border: 1px solid red;
+    width: fit-content;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.question-two {
+    justify-content: space-between;
+    border: 1px solid black;
+    width: fit-content;
+
+
+}
+
+.question-three {
+    display: flex;
+    border: 1px solid blue;
+    width: min-content;
+    
+}
+
+.question-four {
+    border: 1px dotted black;
+    width: min-content;
+    padding: 10px;
+}
+
+.question-five {
+justify-content: space-evenly;
+border: 10px  double black;
+
+}
+
+.question-six {
+    font-display: flex;
+    border: 8px double darkgreen;    
+}
