@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> MY PROFILE</title>
+    <link rel="stylesheet" href="profile-jquery.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/5e94cdec8a.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div>
+        <h1>Hello,I'm Christine
+            <img  class="my-passport" widith="40px" height="40px" src="C:\Users\user\Desktop\PROFILE\sunglasses emogi.jpg" alt="emogi dowmnload">
+        </h1>
+        <img class="profile-pic" src="C:\Users\user\Desktop\PROFILE\passport03.jpg" alt="my own pic">
+        <p>Hi! My name is Achieng christine,I am 29 years old.I am an Itesot from uganda.
+            I live in Mukono,Seeta. and am in the Codequeen September class.
+        </p>
+        <a class="tag" href="https://web.facebook.com/"> Search christine on google</a>
+    </div>
+    <div class="skills">
+        <h1 class="magi">skills</h1>
+        <h3>UI/UX Design<i class="fas fa-ruler-combined"></i> </h3>
+        <p>Iam passionate about
+            <ul>
+                <li>html<i class="fab fa-html5"></i> </li>
+                <li>css<i class="fab fa-css3-alt"></i> </li>
+                <li>javascript<i class="fab fa-js"></i> </li>
+                <li>python<i class="fab fa-python"></i> </li>
+            </ul>
+        </p>
+        <h3>Frontend Development<i class="fas fa-laptop"></i> </h3>
+        <p>I am passionate about <strong> Frontend Development</strong></p>
+    </div>
+    <div class="hobbies">
+        <h1>Hobbies</h1>
+        <h3>Sports</h3>
+        <p>Iam very passionate about
+            <ul>
+                <li>Criket </li><i class="fas fa-baseball-ball"></i>
+                <li>Basketball<i class="fas fa-basketball-ball"></i> </li>
+                <li> jumping rope<i class="fas fa-skating"></i> </li>
+                <li>jogging<i class="fas fa-running"></i> </li>
+            </ul>
+        </p>
+
+    </div>
+    <div class="me">
+        <h1>Follow me</h1>
+        <ul>
+            <li>
+                <a class="tag2" href="https://github.com/Achieng-christine/codequeen-2">Github 
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li>
+                <a class="tag3" href="https://twitter.com/home">Twitter</a>
+                    <i class="fab fa-twitter"></i>
+            </li>
+            <li>
+                <a class="tag4" href="https://web.facebook.com/?_rdc=1&_rdr">Facebook</a>
+                    <i class="fab fa-facebook"></i>
+            </li>
+        </ul>
+    </div>
+    
+    
+</body>
+</html>
+
+
+
+<script>
+$(".profile-pic").click(function(){
+    $("img").fadeOut( ".profile-pic");
+});
+    
+$ (".tag").click(function(){
+    $("a").show( ".tag");
+});
+    
+$(".magi").click(function(){
+    $("skills").fadeOut( ".skills");
+});
+    
+$(".tag2").click(function(){
+    $("a").show( "tag2");
+});
+    
+$(".tag3").click(function(){
+    $("a").show( ".tag3");
+});
+    
+
+
+</script>

@@ -1,0 +1,25 @@
+body{
+    background-color: turquoise;
+    font-family: cursive;
+}
+body > div{
+    margin: auto;
+    width: 50%;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px teal;
+}
+.profile-pic{
+    border-radius: 50%;
+}
+.skills > h1, .hobbies > h1, .me > h1 {
+    color: greenyellow;
+}
+.tag2 , .tag3, .tag4 {
+    text-decoration: none;
+    color: black;
+}
