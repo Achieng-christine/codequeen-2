@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>07.3 Input Independent Practice </title>
+        <link rel="stylesheet" href="favour.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <h3> Vote for your Favorite Food </h3>
+        <img src="https://www.flavcity.com/wp-content/uploads/2019/03/date-brownies-2.jpg">
+        <div class="collectVote">
+            <input class="Favorite" placeholder="name">
+			
+            
+            <button>Submit</button>
+        </div>
+        <div class="vote-result">
+            <input class="final-result"placeholder="results">
+        </div>
+
+        
+    </body>
+</html>
+
+
+<script>
+  
+$("submit").click(function() {
+    let vote =$(".favorite").val();
+    $(".final-result").text(vote) });
+           
+</script>
