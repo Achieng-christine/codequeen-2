@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(68, 160, 163);
+}
+.container{
+    background-color:rgb(188, 188, 219)  ;
+}
+#student-list{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(188, 188, 219);
+}
+.card{
+    width: 180px;
+    height: 250px;
+
+}
+.card-body{
+    background-color: rgb(105, 209, 174);
+    border: 0;
+    box-shadow: none;
+    border-radius: 3px;
+    color: red;
+    font-family: cursive;
+}
+.card-text{
+    font-size:15px;
+    text-align: center; 
+}
