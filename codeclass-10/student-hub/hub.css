@@ -1,0 +1,114 @@
+.main-container{
+    background-color: rgb(100, 155, 136);
+}
+.doc-head{
+    background-color: rgb(129, 161, 189);
+    display: flex;
+    justify-content:space-between ;
+}
+.title{
+    padding-left: 20px;
+    color: rgb(42, 107, 42);
+}
+.links{
+     padding-top:10px ; 
+     padding-right: 10px;
+}
+.links > a{
+    text-decoration: none;
+    color: rgb(80, 77, 226);
+}
+#card{
+    border: 5px solid #f0f0;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(190, 190, 130);
+}
+#register{
+    border: 2px solid rgb(226, 128, 128);
+   background-color: rgb(190, 190, 130); 
+   width:250px;
+   height: 320px;
+   margin: auto;
+   text-align: center;  
+}
+
+#givenname{
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+#givenname-input{
+    width: 180px;
+    height: 25px;
+    border: 1px solid rgb(190, 190, 130);
+}
+#thename{
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+#thename-input{
+    width: 180px;
+    height: 25px;
+    border: 1px solid rgb(190, 190, 130);
+}
+#age-input{
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+#age-holder{
+    width: 180px;
+    height: 25px;
+    border: 1px solid rgb(190, 190, 130);
+}
+#email-input{
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+#email-holder{
+    width: 180px;
+    height: 25px;
+    border: 1px solid rgb(190, 190, 130);
+}
+#btn{
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    padding-left: 70px;
+    cursor: pointer;
+}
+#savebtn{
+    width: 70px;
+    height: 30px;
+    background-color: rgb(63, 63, 212);
+    margin-top: 5px;
+    margin-bottom: 4px;
+    border:none;
+    color: #ffff;
+    border-radius:3px; 
+    cursor: pointer;   
+}
+#registered{
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    background-color: rgb(230, 189, 196);
+    padding: 15px;
+}
+ #table{
+    border:2px solid rgb(46, 129, 46);
+    text-align: center;
+    border-spacing: 20px,10px;
+}
+
